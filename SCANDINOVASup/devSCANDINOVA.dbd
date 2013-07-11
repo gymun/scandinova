@@ -1,0 +1,16 @@
+device(ai,        GPIB_IO, devAiSCANDINOVA,    "SCANDINOVA")
+device(ao,        GPIB_IO, devAoSCANDINOVA,    "SCANDINOVA")
+device(bi,        GPIB_IO, devBiSCANDINOVA,    "SCANDINOVA")
+device(bo,        GPIB_IO, devBoSCANDINOVA,    "SCANDINOVA")
+device(event,     GPIB_IO, devEvSCANDINOVA,    "SCANDINOVA")
+device(longin,    GPIB_IO, devLiSCANDINOVA,    "SCANDINOVA")
+device(longout,   GPIB_IO, devLoSCANDINOVA,    "SCANDINOVA")
+device(mbbi,      GPIB_IO, devMbbiSCANDINOVA , "SCANDINOVA")
+device(mbbiDirect,GPIB_IO, devMbbidSCANDINOVA, "SCANDINOVA")
+device(mbbo,      GPIB_IO, devMbboSCANDINOVA,  "SCANDINOVA")
+device(mbboDirect,GPIB_IO, devMbbodSCANDINOVA, "SCANDINOVA")
+device(stringin,  GPIB_IO, devSiSCANDINOVA,    "SCANDINOVA")
+device(stringout, GPIB_IO, devSoSCANDINOVA,    "SCANDINOVA")
+device(waveform,  GPIB_IO, devWfSCANDINOVA,    "SCANDINOVA")
+
+include "asyn.dbd"
